@@ -1,18 +1,10 @@
 {
-  "name": "unimrkt-next",
+  "name": "unimrkt-research",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 1440",
-    "build": "next build",
-    "start": "next start -p 1440",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "leaflet": "^1.9.4",
-    "next": "^14.2.23",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "swiper": "^11.1.15"
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start"
   }
 }
